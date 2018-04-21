@@ -6,25 +6,25 @@ var femaleNames = ['Asia', 'Basia', 'Kasia', 'Zosia'],
 console.log(allNames);
 
 var newName = 'Czarek';
-    if (allNames.indexOf(newName) === -1) {
-        var howManyNames = allNames.push(newName);
-    }
+if (allNames.indexOf(newName) === -1) {
+    var howManyNames = allNames.push(newName);
+}
 console.log(allNames);
 console.log(howManyNames);
 
 /* here is how I checked it:
 
 var newName = 'Darek';
-    if (allNames.indexOf(newName) === -1) {
-        var howManyNames = allNames.push(newName);
-    }
+if (allNames.indexOf(newName) === -1) {
+    var howManyNames = allNames.push(newName);
+}
 console.log(allNames);
 console.log(howManyNames);
 
 var newName = 'Gosia';
-    if (allNames.indexOf(newName) === -1) {
-        var howManyNames = allNames.push(newName);
-    }
+if (allNames.indexOf(newName) === -1) {
+    var howManyNames = allNames.push(newName);
+}
 console.log(allNames);
 console.log(howManyNames);
 */
